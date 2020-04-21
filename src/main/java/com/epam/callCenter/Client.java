@@ -6,6 +6,9 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Client extends Thread {
@@ -16,7 +19,8 @@ public class Client extends Thread {
     private boolean helped = false;
     private List<Operator> operators;
     private BlockingQueue<Client> clientsQueue;
-    private ReentrantLock lock = new ReentrantLock();
+    private Lock lock = new ReentrantLock();
+    private Condition condition = lock.newCondition();
 
     public Client(int timeToAsk, int number, List<Operator> operators, BlockingQueue<Client> clientsQueue) {
 
@@ -28,54 +32,68 @@ public class Client extends Thread {
     }
 
     @Override
-    public void run() {
-        boolean isTalking = false;
-
+    public void run(){
         for(Operator operator: operators){
-            if (operator.isFree()){
-                synchronized (operator){
-                    if (operator.isFree()) {
-                        operator.setClient(this);
-                        System.out.println("Client #" + number + " was called to operator #" + operator.getNumber());
-                        isTalking = true;
-                        operator.notify();
+            if (operator.isFree()) {
+                lock.lock();
+                if (lock.tryLock() && operator.isFree()) {
+                    operator.setClient(this);
+                    System.out.println("Client #" + number + " was called to operator #" + operator.getNumber());
+                    operator.wakeUp();
+                    try {
+                        condition.await();
+                        LOG.info("Client #" + number + " waits, when operator ask him");
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
-                    else {
-                        continue;
-                    }
+                    lock.unlock();
+                } else {
+                    continue;
                 }
                 break;
             }
         }
-        if (!isTalking){
+        if (!helped){
             clientsQueue.offer(this);
-            synchronized (this) {
+            if (lock.tryLock()) {
                 try {
-                    this.wait(3000 + new Random().nextInt(3000));
+                    int time = 3000 + new Random().nextInt(3000);
+                    LOG.info("Client #" + number + " is in queue, and waiting " + time + " milliseconds");
+                    condition.await(time, TimeUnit.MILLISECONDS);
+
                     if (!helped) {
+                        LOG.info("Client #" + number + " cant wait more");
                         clientsQueue.remove(this);
                         System.out.println("Client #" + number + " cant wait more");
+                    }
+                    else {
+                        System.out.println("Client #" + getNumber() + " is happy");
                     }
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
                     LOG.warn(ex.getMessage());
+                }finally {
+                    lock.unlock();
                 }
             }
         }
-        if (helped){
-            System.out.println("Client #" + getNumber() + " was left");
+        else{
+            System.out.println("Client #" + getNumber() + " is happy");
         }
     }
 
     public void asking(){
-        synchronized (this) {
+        if (lock.tryLock()) {
             try {
+                LOG.info("Client #" + number + " is talking");
                 Thread.sleep(timeToAsk);
                 helped = true;
-                this.notifyAll();
+                condition.signalAll();
             } catch (InterruptedException ex) {
                 Thread.currentThread().interrupt();
                 LOG.warn(ex.getMessage());
+            }finally {
+                lock.unlock();
             }
         }
     }

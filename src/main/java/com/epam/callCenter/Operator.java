@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -14,7 +15,8 @@ public class Operator extends Thread {
     private boolean isFree = true;
     private BlockingQueue<Client> clients;
     private Client currentClient;
-    private ReentrantLock lock = new ReentrantLock();
+    private Lock lock = new ReentrantLock();
+    private Condition condition = lock.newCondition();
 
     public Operator(int operatorNumber, BlockingQueue<Client> clients) {
         super("Operator #" + operatorNumber);
@@ -25,31 +27,50 @@ public class Operator extends Thread {
     @Override
     public void run() {
         while (true) {
-            if (currentClient == null) {
-                synchronized (this) {
-                    try {
-                        isFree = true;
-                        wait();
-                    } catch (InterruptedException ex) {
-                        Thread.currentThread().interrupt();
-                        LOG.warn(ex.getMessage());
-                    }
-                }
+            lock.lock();
+            try {
+                while (currentClient == null){
 
-            } else {
-                synchronized (currentClient){
-                    isFree = false;
-                    System.out.println("Operator #" + operatorNumber + "  is start talking with Client #" + currentClient.getNumber());
-                    currentClient.asking();
+                    waitClient();
                 }
+                isFree = false;
+                System.out.println("Operator #" + operatorNumber + "  is start talking with Client #" + currentClient.getNumber());
+                currentClient.asking();
+
                 currentClient = clients.poll();
                 if (currentClient != null) {
                     System.out.println("Operator #" + operatorNumber + " took Client #" + currentClient.getNumber());
                 }
+            }finally {
+                lock.unlock();
             }
         }
     }
 
+    public void waitClient(){
+        lock.lock();
+        isFree = true;
+        try {
+            LOG.info("Operator #" + operatorNumber + " is sleeping");
+            condition.await();
+        } catch (InterruptedException e) {
+            LOG.warn(e.getMessage());
+        }finally {
+            lock.unlock();
+        }
+    }
+
+    public void wakeUp(){
+        lock.lock();
+        try {
+            condition.signalAll();
+            LOG.info("Operator #" + operatorNumber + " is awoke");
+        }finally {
+            lock.unlock();
+        }
+
+
+    }
 
     public void setClient(Client client) {
         currentClient = client;

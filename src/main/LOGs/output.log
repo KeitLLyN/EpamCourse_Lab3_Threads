@@ -1,0 +1,610 @@
+21:13:26.887 [Operator #8] INFO  com.epam.callCenter.Operator - Operator #8 is sleeping
+21:13:26.887 [Operator #1] INFO  com.epam.callCenter.Operator - Operator #1 is sleeping
+21:13:26.887 [Operator #4] INFO  com.epam.callCenter.Operator - Operator #4 is sleeping
+21:13:26.887 [Operator #2] INFO  com.epam.callCenter.Operator - Operator #2 is sleeping
+21:13:26.887 [Operator #0] INFO  com.epam.callCenter.Operator - Operator #0 is sleeping
+21:13:26.887 [Operator #9] INFO  com.epam.callCenter.Operator - Operator #9 is sleeping
+21:13:26.887 [Operator #6] INFO  com.epam.callCenter.Operator - Operator #6 is sleeping
+21:13:26.887 [Operator #7] INFO  com.epam.callCenter.Operator - Operator #7 is sleeping
+21:13:26.887 [Operator #5] INFO  com.epam.callCenter.Operator - Operator #5 is sleeping
+21:13:26.887 [Operator #3] INFO  com.epam.callCenter.Operator - Operator #3 is sleeping
+21:13:26.892 [Client #0] INFO  com.epam.callCenter.Operator - Operator #0 is awoke
+21:13:26.892 [Operator #0] INFO  com.epam.callCenter.Client - Client #0 is talking
+21:13:26.896 [Client #1] INFO  com.epam.callCenter.Operator - Operator #1 is awoke
+21:13:26.896 [Operator #1] INFO  com.epam.callCenter.Client - Client #1 is talking
+21:13:26.908 [Client #2] INFO  com.epam.callCenter.Operator - Operator #2 is awoke
+21:13:26.908 [Operator #2] INFO  com.epam.callCenter.Client - Client #2 is talking
+21:13:26.919 [Client #3] INFO  com.epam.callCenter.Operator - Operator #3 is awoke
+21:13:26.919 [Operator #3] INFO  com.epam.callCenter.Client - Client #3 is talking
+21:13:26.930 [Client #4] INFO  com.epam.callCenter.Operator - Operator #4 is awoke
+21:13:26.930 [Operator #4] INFO  com.epam.callCenter.Client - Client #4 is talking
+21:13:26.942 [Client #5] INFO  com.epam.callCenter.Operator - Operator #5 is awoke
+21:13:26.942 [Operator #5] INFO  com.epam.callCenter.Client - Client #5 is talking
+21:13:26.954 [Client #6] INFO  com.epam.callCenter.Operator - Operator #6 is awoke
+21:13:26.954 [Operator #6] INFO  com.epam.callCenter.Client - Client #6 is talking
+21:13:26.966 [Client #7] INFO  com.epam.callCenter.Operator - Operator #7 is awoke
+21:13:26.966 [Operator #7] INFO  com.epam.callCenter.Client - Client #7 is talking
+21:13:26.978 [Client #8] INFO  com.epam.callCenter.Operator - Operator #8 is awoke
+21:13:26.978 [Operator #8] INFO  com.epam.callCenter.Client - Client #8 is talking
+21:13:26.991 [Client #9] INFO  com.epam.callCenter.Operator - Operator #9 is awoke
+21:13:26.991 [Operator #9] INFO  com.epam.callCenter.Client - Client #9 is talking
+21:13:27.002 [Client #10] INFO  com.epam.callCenter.Client - Client #10 is in queue, and waiting 3114 milliseconds
+21:13:27.014 [Client #11] INFO  com.epam.callCenter.Client - Client #11 is in queue, and waiting 5943 milliseconds
+21:13:27.025 [Client #12] INFO  com.epam.callCenter.Client - Client #12 is in queue, and waiting 4604 milliseconds
+21:13:27.036 [Client #13] INFO  com.epam.callCenter.Client - Client #13 is in queue, and waiting 3506 milliseconds
+21:13:27.048 [Client #14] INFO  com.epam.callCenter.Client - Client #14 is in queue, and waiting 5024 milliseconds
+21:13:27.060 [Client #15] INFO  com.epam.callCenter.Client - Client #15 is in queue, and waiting 5461 milliseconds
+21:13:27.072 [Client #16] INFO  com.epam.callCenter.Client - Client #16 is in queue, and waiting 5972 milliseconds
+21:13:27.084 [Client #17] INFO  com.epam.callCenter.Client - Client #17 is in queue, and waiting 3664 milliseconds
+21:13:27.096 [Client #18] INFO  com.epam.callCenter.Client - Client #18 is in queue, and waiting 4796 milliseconds
+21:13:27.108 [Client #19] INFO  com.epam.callCenter.Client - Client #19 is in queue, and waiting 5969 milliseconds
+21:13:27.120 [Client #20] INFO  com.epam.callCenter.Client - Client #20 is in queue, and waiting 5550 milliseconds
+21:13:27.133 [Client #21] INFO  com.epam.callCenter.Client - Client #21 is in queue, and waiting 5731 milliseconds
+21:13:27.146 [Client #22] INFO  com.epam.callCenter.Client - Client #22 is in queue, and waiting 3124 milliseconds
+21:13:27.158 [Client #23] INFO  com.epam.callCenter.Client - Client #23 is in queue, and waiting 3340 milliseconds
+21:13:27.169 [Client #24] INFO  com.epam.callCenter.Client - Client #24 is in queue, and waiting 3130 milliseconds
+21:13:27.180 [Client #25] INFO  com.epam.callCenter.Client - Client #25 is in queue, and waiting 3809 milliseconds
+21:13:27.192 [Client #26] INFO  com.epam.callCenter.Client - Client #26 is in queue, and waiting 4533 milliseconds
+21:13:27.203 [Client #27] INFO  com.epam.callCenter.Client - Client #27 is in queue, and waiting 5093 milliseconds
+21:13:27.215 [Client #28] INFO  com.epam.callCenter.Client - Client #28 is in queue, and waiting 4438 milliseconds
+21:13:27.228 [Client #29] INFO  com.epam.callCenter.Client - Client #29 is in queue, and waiting 5941 milliseconds
+21:13:27.240 [Client #30] INFO  com.epam.callCenter.Client - Client #30 is in queue, and waiting 4847 milliseconds
+21:13:27.251 [Client #31] INFO  com.epam.callCenter.Client - Client #31 is in queue, and waiting 3828 milliseconds
+21:13:27.262 [Client #32] INFO  com.epam.callCenter.Client - Client #32 is in queue, and waiting 3449 milliseconds
+21:13:27.274 [Client #33] INFO  com.epam.callCenter.Client - Client #33 is in queue, and waiting 5426 milliseconds
+21:13:27.288 [Client #34] INFO  com.epam.callCenter.Client - Client #34 is in queue, and waiting 3082 milliseconds
+21:13:27.299 [Client #35] INFO  com.epam.callCenter.Client - Client #35 is in queue, and waiting 3180 milliseconds
+21:13:27.310 [Client #36] INFO  com.epam.callCenter.Client - Client #36 is in queue, and waiting 5030 milliseconds
+21:13:27.322 [Client #37] INFO  com.epam.callCenter.Client - Client #37 is in queue, and waiting 5687 milliseconds
+21:13:27.336 [Client #38] INFO  com.epam.callCenter.Client - Client #38 is in queue, and waiting 5186 milliseconds
+21:13:27.347 [Client #39] INFO  com.epam.callCenter.Client - Client #39 is in queue, and waiting 3568 milliseconds
+21:13:27.358 [Client #40] INFO  com.epam.callCenter.Client - Client #40 is in queue, and waiting 4317 milliseconds
+21:13:27.369 [Client #41] INFO  com.epam.callCenter.Client - Client #41 is in queue, and waiting 4148 milliseconds
+21:13:27.380 [Client #42] INFO  com.epam.callCenter.Client - Client #42 is in queue, and waiting 5298 milliseconds
+21:13:27.391 [Client #43] INFO  com.epam.callCenter.Client - Client #43 is in queue, and waiting 3232 milliseconds
+21:13:27.402 [Client #44] INFO  com.epam.callCenter.Client - Client #44 is in queue, and waiting 3094 milliseconds
+21:13:27.415 [Client #45] INFO  com.epam.callCenter.Client - Client #45 is in queue, and waiting 4016 milliseconds
+21:13:27.426 [Client #46] INFO  com.epam.callCenter.Client - Client #46 is in queue, and waiting 3684 milliseconds
+21:13:27.438 [Client #47] INFO  com.epam.callCenter.Client - Client #47 is in queue, and waiting 3314 milliseconds
+21:13:27.449 [Client #48] INFO  com.epam.callCenter.Client - Client #48 is in queue, and waiting 4287 milliseconds
+21:13:27.460 [Client #49] INFO  com.epam.callCenter.Client - Client #49 is in queue, and waiting 3044 milliseconds
+21:13:27.472 [Client #50] INFO  com.epam.callCenter.Client - Client #50 is in queue, and waiting 3517 milliseconds
+21:13:27.483 [Client #51] INFO  com.epam.callCenter.Client - Client #51 is in queue, and waiting 4064 milliseconds
+21:13:27.494 [Client #52] INFO  com.epam.callCenter.Client - Client #52 is in queue, and waiting 5954 milliseconds
+21:13:27.506 [Client #53] INFO  com.epam.callCenter.Client - Client #53 is in queue, and waiting 3254 milliseconds
+21:13:27.519 [Client #54] INFO  com.epam.callCenter.Client - Client #54 is in queue, and waiting 3586 milliseconds
+21:13:27.530 [Client #55] INFO  com.epam.callCenter.Client - Client #55 is in queue, and waiting 4997 milliseconds
+21:13:27.544 [Client #56] INFO  com.epam.callCenter.Client - Client #56 is in queue, and waiting 3393 milliseconds
+21:13:27.556 [Client #57] INFO  com.epam.callCenter.Client - Client #57 is in queue, and waiting 3352 milliseconds
+21:13:27.569 [Client #58] INFO  com.epam.callCenter.Client - Client #58 is in queue, and waiting 4259 milliseconds
+21:13:27.580 [Client #59] INFO  com.epam.callCenter.Client - Client #59 is in queue, and waiting 4684 milliseconds
+21:13:27.591 [Client #60] INFO  com.epam.callCenter.Client - Client #60 is in queue, and waiting 5310 milliseconds
+21:13:27.603 [Client #61] INFO  com.epam.callCenter.Client - Client #61 is in queue, and waiting 4600 milliseconds
+21:13:27.616 [Client #62] INFO  com.epam.callCenter.Client - Client #62 is in queue, and waiting 5199 milliseconds
+21:13:27.626 [Client #63] INFO  com.epam.callCenter.Client - Client #63 is in queue, and waiting 4734 milliseconds
+21:13:27.637 [Client #64] INFO  com.epam.callCenter.Client - Client #64 is in queue, and waiting 3371 milliseconds
+21:13:27.649 [Client #65] INFO  com.epam.callCenter.Client - Client #65 is in queue, and waiting 3613 milliseconds
+21:13:27.661 [Client #66] INFO  com.epam.callCenter.Client - Client #66 is in queue, and waiting 4637 milliseconds
+21:13:27.673 [Client #67] INFO  com.epam.callCenter.Client - Client #67 is in queue, and waiting 5708 milliseconds
+21:13:27.684 [Client #68] INFO  com.epam.callCenter.Client - Client #68 is in queue, and waiting 5052 milliseconds
+21:13:27.698 [Client #69] INFO  com.epam.callCenter.Client - Client #69 is in queue, and waiting 3088 milliseconds
+21:13:27.710 [Client #70] INFO  com.epam.callCenter.Client - Client #70 is in queue, and waiting 3792 milliseconds
+21:13:27.722 [Client #71] INFO  com.epam.callCenter.Client - Client #71 is in queue, and waiting 3697 milliseconds
+21:13:27.737 [Client #72] INFO  com.epam.callCenter.Client - Client #72 is in queue, and waiting 3144 milliseconds
+21:13:27.750 [Client #73] INFO  com.epam.callCenter.Client - Client #73 is in queue, and waiting 3077 milliseconds
+21:13:27.763 [Client #74] INFO  com.epam.callCenter.Client - Client #74 is in queue, and waiting 5963 milliseconds
+21:13:27.774 [Client #75] INFO  com.epam.callCenter.Client - Client #75 is in queue, and waiting 3447 milliseconds
+21:13:27.786 [Client #76] INFO  com.epam.callCenter.Client - Client #76 is in queue, and waiting 5393 milliseconds
+21:13:27.797 [Client #77] INFO  com.epam.callCenter.Client - Client #77 is in queue, and waiting 5561 milliseconds
+21:13:27.808 [Client #78] INFO  com.epam.callCenter.Client - Client #78 is in queue, and waiting 3729 milliseconds
+21:13:27.820 [Client #79] INFO  com.epam.callCenter.Client - Client #79 is in queue, and waiting 5464 milliseconds
+21:13:27.831 [Client #80] INFO  com.epam.callCenter.Client - Client #80 is in queue, and waiting 5505 milliseconds
+21:13:27.842 [Client #81] INFO  com.epam.callCenter.Client - Client #81 is in queue, and waiting 5839 milliseconds
+21:13:27.854 [Client #82] INFO  com.epam.callCenter.Client - Client #82 is in queue, and waiting 5390 milliseconds
+21:13:27.866 [Client #83] INFO  com.epam.callCenter.Client - Client #83 is in queue, and waiting 3186 milliseconds
+21:13:27.877 [Client #84] INFO  com.epam.callCenter.Client - Client #84 is in queue, and waiting 3723 milliseconds
+21:13:27.888 [Client #85] INFO  com.epam.callCenter.Client - Client #85 is in queue, and waiting 3512 milliseconds
+21:13:27.899 [Client #86] INFO  com.epam.callCenter.Client - Client #86 is in queue, and waiting 3541 milliseconds
+21:13:27.911 [Client #87] INFO  com.epam.callCenter.Client - Client #87 is in queue, and waiting 3869 milliseconds
+21:13:27.923 [Client #88] INFO  com.epam.callCenter.Client - Client #88 is in queue, and waiting 5116 milliseconds
+21:13:27.931 [Client #7] INFO  com.epam.callCenter.Client - Client #7 waits, when operator ask him
+21:13:27.931 [Operator #7] INFO  com.epam.callCenter.Client - Client #10 is talking
+21:13:27.934 [Client #89] INFO  com.epam.callCenter.Client - Client #89 is in queue, and waiting 4925 milliseconds
+21:13:27.945 [Client #90] INFO  com.epam.callCenter.Client - Client #90 is in queue, and waiting 5623 milliseconds
+21:13:27.950 [Operator #9] INFO  com.epam.callCenter.Client - Client #11 is talking
+21:13:27.950 [Client #9] INFO  com.epam.callCenter.Client - Client #9 waits, when operator ask him
+21:13:27.958 [Client #91] INFO  com.epam.callCenter.Client - Client #91 is in queue, and waiting 3160 milliseconds
+21:13:27.973 [Client #92] INFO  com.epam.callCenter.Client - Client #92 is in queue, and waiting 5662 milliseconds
+21:13:27.986 [Client #93] INFO  com.epam.callCenter.Client - Client #93 is in queue, and waiting 4197 milliseconds
+21:13:27.998 [Client #94] INFO  com.epam.callCenter.Client - Client #94 is in queue, and waiting 3183 milliseconds
+21:13:28.000 [Client #5] INFO  com.epam.callCenter.Client - Client #5 waits, when operator ask him
+21:13:28.000 [Operator #5] INFO  com.epam.callCenter.Client - Client #12 is talking
+21:13:28.002 [Operator #0] INFO  com.epam.callCenter.Client - Client #13 is talking
+21:13:28.002 [Client #0] INFO  com.epam.callCenter.Client - Client #0 waits, when operator ask him
+21:13:28.013 [Client #95] INFO  com.epam.callCenter.Client - Client #95 is in queue, and waiting 3521 milliseconds
+21:13:28.020 [Client #96] INFO  com.epam.callCenter.Client - Client #96 is in queue, and waiting 3877 milliseconds
+21:13:28.032 [Client #97] INFO  com.epam.callCenter.Client - Client #97 is in queue, and waiting 5441 milliseconds
+21:13:28.039 [Client #6] INFO  com.epam.callCenter.Client - Client #6 waits, when operator ask him
+21:13:28.039 [Operator #6] INFO  com.epam.callCenter.Client - Client #14 is talking
+21:13:28.043 [Client #98] INFO  com.epam.callCenter.Client - Client #98 is in queue, and waiting 4674 milliseconds
+21:13:28.055 [Client #99] INFO  com.epam.callCenter.Client - Client #99 is in queue, and waiting 3174 milliseconds
+21:13:28.070 [Client #8] INFO  com.epam.callCenter.Client - Client #8 waits, when operator ask him
+21:13:28.070 [Operator #8] INFO  com.epam.callCenter.Client - Client #15 is talking
+21:13:28.187 [Client #2] INFO  com.epam.callCenter.Client - Client #2 waits, when operator ask him
+21:13:28.187 [Operator #2] INFO  com.epam.callCenter.Client - Client #16 is talking
+21:13:28.204 [Operator #1] INFO  com.epam.callCenter.Client - Client #17 is talking
+21:13:28.204 [Client #1] INFO  com.epam.callCenter.Client - Client #1 waits, when operator ask him
+21:13:28.236 [Client #3] INFO  com.epam.callCenter.Client - Client #3 waits, when operator ask him
+21:13:28.236 [Operator #3] INFO  com.epam.callCenter.Client - Client #18 is talking
+21:13:28.264 [Client #4] INFO  com.epam.callCenter.Client - Client #4 waits, when operator ask him
+21:13:28.264 [Operator #4] INFO  com.epam.callCenter.Client - Client #19 is talking
+21:13:28.946 [Operator #6] INFO  com.epam.callCenter.Client - Client #20 is talking
+21:13:29.081 [Operator #9] INFO  com.epam.callCenter.Client - Client #21 is talking
+21:13:29.088 [Operator #5] INFO  com.epam.callCenter.Client - Client #22 is talking
+21:13:29.136 [Operator #2] INFO  com.epam.callCenter.Client - Client #23 is talking
+21:13:29.245 [Operator #7] INFO  com.epam.callCenter.Client - Client #24 is talking
+21:13:29.312 [Operator #1] INFO  com.epam.callCenter.Client - Client #25 is talking
+21:13:29.315 [Operator #4] INFO  com.epam.callCenter.Client - Client #26 is talking
+21:13:29.340 [Operator #8] INFO  com.epam.callCenter.Client - Client #27 is talking
+21:13:29.383 [Operator #0] INFO  com.epam.callCenter.Client - Client #28 is talking
+21:13:29.599 [Operator #3] INFO  com.epam.callCenter.Client - Client #29 is talking
+21:13:30.001 [Operator #6] INFO  com.epam.callCenter.Client - Client #30 is talking
+21:13:30.282 [Operator #4] INFO  com.epam.callCenter.Client - Client #31 is talking
+21:13:30.339 [Operator #5] INFO  com.epam.callCenter.Client - Client #32 is talking
+21:13:30.372 [Client #34] INFO  com.epam.callCenter.Client - Client #34 cant wait more
+21:13:30.394 [Operator #2] INFO  com.epam.callCenter.Client - Client #33 is talking
+21:13:30.401 [Operator #7] INFO  com.epam.callCenter.Client - Client #35 is talking
+21:13:30.435 [Operator #9] INFO  com.epam.callCenter.Client - Client #36 is talking
+21:13:30.498 [Client #44] INFO  com.epam.callCenter.Client - Client #44 cant wait more
+21:13:30.507 [Client #49] INFO  com.epam.callCenter.Client - Client #49 cant wait more
+21:13:30.544 [Operator #0] INFO  com.epam.callCenter.Client - Client #37 is talking
+21:13:30.625 [Client #43] INFO  com.epam.callCenter.Client - Client #43 cant wait more
+21:13:30.683 [Operator #8] INFO  com.epam.callCenter.Client - Client #38 is talking
+21:13:30.697 [Operator #1] INFO  com.epam.callCenter.Client - Client #39 is talking
+21:13:30.754 [Client #47] INFO  com.epam.callCenter.Client - Client #47 cant wait more
+21:13:30.762 [Client #53] INFO  com.epam.callCenter.Client - Client #53 cant wait more
+21:13:30.789 [Client #69] INFO  com.epam.callCenter.Client - Client #69 cant wait more
+21:13:30.829 [Client #73] INFO  com.epam.callCenter.Client - Client #73 cant wait more
+21:13:30.882 [Client #72] INFO  com.epam.callCenter.Client - Client #72 cant wait more
+21:13:30.910 [Client #57] INFO  com.epam.callCenter.Client - Client #57 cant wait more
+21:13:30.939 [Client #56] INFO  com.epam.callCenter.Client - Client #56 cant wait more
+21:13:30.985 [Operator #3] INFO  com.epam.callCenter.Client - Client #40 is talking
+21:13:30.990 [Client #50] INFO  com.epam.callCenter.Client - Client #50 cant wait more
+21:13:31.009 [Client #64] INFO  com.epam.callCenter.Client - Client #64 cant wait more
+21:13:31.053 [Client #83] INFO  com.epam.callCenter.Client - Client #83 cant wait more
+21:13:31.106 [Client #54] INFO  com.epam.callCenter.Client - Client #54 cant wait more
+21:13:31.111 [Client #46] INFO  com.epam.callCenter.Client - Client #46 cant wait more
+21:13:31.119 [Client #91] INFO  com.epam.callCenter.Client - Client #91 cant wait more
+21:13:31.182 [Client #94] INFO  com.epam.callCenter.Client - Client #94 cant wait more
+21:13:31.221 [Client #75] INFO  com.epam.callCenter.Client - Client #75 cant wait more
+21:13:31.230 [Client #99] INFO  com.epam.callCenter.Client - Client #99 cant wait more
+21:13:31.263 [Client #65] INFO  com.epam.callCenter.Client - Client #65 cant wait more
+21:13:31.364 [Operator #7] INFO  com.epam.callCenter.Client - Client #41 is talking
+21:13:31.391 [Operator #4] INFO  com.epam.callCenter.Client - Client #42 is talking
+21:13:31.401 [Client #85] INFO  com.epam.callCenter.Client - Client #85 cant wait more
+21:13:31.402 [Operator #6] INFO  com.epam.callCenter.Client - Client #45 is talking
+21:13:31.421 [Client #71] INFO  com.epam.callCenter.Client - Client #71 cant wait more
+21:13:31.440 [Client #86] INFO  com.epam.callCenter.Client - Client #86 cant wait more
+21:13:31.447 [Operator #0] INFO  com.epam.callCenter.Client - Client #48 is talking
+21:13:31.465 [Operator #5] INFO  com.epam.callCenter.Client - Client #51 is talking
+21:13:31.504 [Client #70] INFO  com.epam.callCenter.Client - Client #70 cant wait more
+21:13:31.534 [Client #95] INFO  com.epam.callCenter.Client - Client #95 cant wait more
+21:13:31.537 [Client #78] INFO  com.epam.callCenter.Client - Client #78 cant wait more
+21:13:31.601 [Client #84] INFO  com.epam.callCenter.Client - Client #84 cant wait more
+21:13:31.700 [Operator #2] INFO  com.epam.callCenter.Client - Client #52 is talking
+21:13:31.781 [Client #87] INFO  com.epam.callCenter.Client - Client #87 cant wait more
+21:13:31.830 [Client #58] INFO  com.epam.callCenter.Client - Client #58 cant wait more
+21:13:31.831 [Operator #9] INFO  com.epam.callCenter.Client - Client #55 is talking
+21:13:31.898 [Client #96] INFO  com.epam.callCenter.Client - Client #96 cant wait more
+21:13:31.899 [Operator #3] INFO  com.epam.callCenter.Client - Client #59 is talking
+21:13:31.912 [Operator #1] INFO  com.epam.callCenter.Client - Client #60 is talking
+21:13:32.053 [Operator #8] INFO  com.epam.callCenter.Client - Client #61 is talking
+21:13:32.184 [Client #93] INFO  com.epam.callCenter.Client - Client #93 cant wait more
+21:13:32.300 [Client #66] INFO  com.epam.callCenter.Client - Client #66 cant wait more
+21:13:32.361 [Client #63] INFO  com.epam.callCenter.Client - Client #63 cant wait more
+21:13:32.520 [Operator #6] INFO  com.epam.callCenter.Client - Client #62 is talking
+21:13:32.556 [Operator #0] INFO  com.epam.callCenter.Client - Client #67 is talking
+21:13:32.619 [Operator #7] INFO  com.epam.callCenter.Client - Client #68 is talking
+21:13:32.685 [Operator #5] INFO  com.epam.callCenter.Client - Client #74 is talking
+21:13:32.704 [Operator #4] INFO  com.epam.callCenter.Client - Client #76 is talking
+21:13:32.718 [Client #98] INFO  com.epam.callCenter.Client - Client #98 cant wait more
+21:13:32.860 [Client #89] INFO  com.epam.callCenter.Client - Client #89 cant wait more
+21:13:32.863 [Operator #3] INFO  com.epam.callCenter.Client - Client #77 is talking
+21:13:32.957 [Operator #2] INFO  com.epam.callCenter.Client - Client #79 is talking
+21:13:33.040 [Client #88] INFO  com.epam.callCenter.Client - Client #88 cant wait more
+21:13:33.050 [Operator #1] INFO  com.epam.callCenter.Client - Client #80 is talking
+21:13:33.226 [Operator #8] INFO  com.epam.callCenter.Client - Client #81 is talking
+21:13:33.227 [Operator #9] INFO  com.epam.callCenter.Client - Client #82 is talking
+21:13:33.474 [Client #97] INFO  com.epam.callCenter.Client - Client #97 cant wait more
+21:13:33.569 [Client #90] INFO  com.epam.callCenter.Client - Client #90 cant wait more
+21:13:33.624 [Operator #0] INFO  com.epam.callCenter.Client - Client #92 is talking
+21:13:33.629 [Operator #6] INFO  com.epam.callCenter.Operator - Operator #6 is sleeping
+21:13:33.796 [Operator #5] INFO  com.epam.callCenter.Operator - Operator #5 is sleeping
+21:13:33.865 [Operator #7] INFO  com.epam.callCenter.Operator - Operator #7 is sleeping
+21:13:33.888 [Operator #4] INFO  com.epam.callCenter.Operator - Operator #4 is sleeping
+21:13:34.092 [Operator #1] INFO  com.epam.callCenter.Operator - Operator #1 is sleeping
+21:13:34.121 [Operator #3] INFO  com.epam.callCenter.Operator - Operator #3 is sleeping
+21:13:34.176 [Operator #9] INFO  com.epam.callCenter.Operator - Operator #9 is sleeping
+21:13:34.193 [Operator #8] INFO  com.epam.callCenter.Operator - Operator #8 is sleeping
+21:13:34.306 [Operator #2] INFO  com.epam.callCenter.Operator - Operator #2 is sleeping
+21:13:34.678 [Operator #0] INFO  com.epam.callCenter.Operator - Operator #0 is sleeping
+21:15:38.365 [Operator #8] INFO  com.epam.callCenter.Operator - Operator #8 is sleeping
+21:15:38.365 [Operator #2] INFO  com.epam.callCenter.Operator - Operator #2 is sleeping
+21:15:38.365 [Operator #5] INFO  com.epam.callCenter.Operator - Operator #5 is sleeping
+21:15:38.365 [Operator #3] INFO  com.epam.callCenter.Operator - Operator #3 is sleeping
+21:15:38.365 [Operator #6] INFO  com.epam.callCenter.Operator - Operator #6 is sleeping
+21:15:38.365 [Operator #1] INFO  com.epam.callCenter.Operator - Operator #1 is sleeping
+21:15:38.365 [Operator #9] INFO  com.epam.callCenter.Operator - Operator #9 is sleeping
+21:15:38.365 [Operator #7] INFO  com.epam.callCenter.Operator - Operator #7 is sleeping
+21:15:38.365 [Operator #4] INFO  com.epam.callCenter.Operator - Operator #4 is sleeping
+21:15:38.365 [Operator #0] INFO  com.epam.callCenter.Operator - Operator #0 is sleeping
+21:15:38.369 [Client #0] INFO  com.epam.callCenter.Operator - Operator #0 is awoke
+21:15:38.370 [Operator #0] INFO  com.epam.callCenter.Client - Client #0 is talking
+21:15:38.375 [Client #1] INFO  com.epam.callCenter.Operator - Operator #1 is awoke
+21:15:38.375 [Operator #1] INFO  com.epam.callCenter.Client - Client #1 is talking
+21:15:38.388 [Client #2] INFO  com.epam.callCenter.Operator - Operator #2 is awoke
+21:15:38.389 [Operator #2] INFO  com.epam.callCenter.Client - Client #2 is talking
+21:15:38.400 [Client #3] INFO  com.epam.callCenter.Operator - Operator #3 is awoke
+21:15:38.400 [Operator #3] INFO  com.epam.callCenter.Client - Client #3 is talking
+21:15:38.412 [Client #4] INFO  com.epam.callCenter.Operator - Operator #4 is awoke
+21:15:38.412 [Operator #4] INFO  com.epam.callCenter.Client - Client #4 is talking
+21:15:38.423 [Client #5] INFO  com.epam.callCenter.Operator - Operator #5 is awoke
+21:15:38.423 [Operator #5] INFO  com.epam.callCenter.Client - Client #5 is talking
+21:15:38.435 [Client #6] INFO  com.epam.callCenter.Operator - Operator #6 is awoke
+21:15:38.435 [Operator #6] INFO  com.epam.callCenter.Client - Client #6 is talking
+21:15:38.447 [Client #7] INFO  com.epam.callCenter.Operator - Operator #7 is awoke
+21:15:38.447 [Operator #7] INFO  com.epam.callCenter.Client - Client #7 is talking
+21:15:38.459 [Client #8] INFO  com.epam.callCenter.Operator - Operator #8 is awoke
+21:15:38.459 [Operator #8] INFO  com.epam.callCenter.Client - Client #8 is talking
+21:15:38.470 [Client #9] INFO  com.epam.callCenter.Operator - Operator #9 is awoke
+21:15:38.470 [Operator #9] INFO  com.epam.callCenter.Client - Client #9 is talking
+21:15:38.483 [Client #10] INFO  com.epam.callCenter.Client - Client #10 is in queue, and waiting 5657 milliseconds
+21:15:38.494 [Client #11] INFO  com.epam.callCenter.Client - Client #11 is in queue, and waiting 3718 milliseconds
+21:15:38.506 [Client #12] INFO  com.epam.callCenter.Client - Client #12 is in queue, and waiting 4994 milliseconds
+21:15:38.519 [Client #13] INFO  com.epam.callCenter.Client - Client #13 is in queue, and waiting 5650 milliseconds
+21:15:38.530 [Client #14] INFO  com.epam.callCenter.Client - Client #14 is in queue, and waiting 4480 milliseconds
+21:15:38.542 [Client #15] INFO  com.epam.callCenter.Client - Client #15 is in queue, and waiting 4519 milliseconds
+21:15:38.555 [Client #16] INFO  com.epam.callCenter.Client - Client #16 is in queue, and waiting 5016 milliseconds
+21:15:38.568 [Client #17] INFO  com.epam.callCenter.Client - Client #17 is in queue, and waiting 4112 milliseconds
+21:15:38.580 [Client #18] INFO  com.epam.callCenter.Client - Client #18 is in queue, and waiting 5527 milliseconds
+21:15:38.591 [Client #19] INFO  com.epam.callCenter.Client - Client #19 is in queue, and waiting 5510 milliseconds
+21:15:38.603 [Client #20] INFO  com.epam.callCenter.Client - Client #20 is in queue, and waiting 5416 milliseconds
+21:15:38.614 [Client #21] INFO  com.epam.callCenter.Client - Client #21 is in queue, and waiting 4743 milliseconds
+21:15:38.625 [Client #22] INFO  com.epam.callCenter.Client - Client #22 is in queue, and waiting 4934 milliseconds
+21:15:38.637 [Client #23] INFO  com.epam.callCenter.Client - Client #23 is in queue, and waiting 5893 milliseconds
+21:15:38.649 [Client #24] INFO  com.epam.callCenter.Client - Client #24 is in queue, and waiting 5617 milliseconds
+21:15:38.660 [Client #25] INFO  com.epam.callCenter.Client - Client #25 is in queue, and waiting 3770 milliseconds
+21:15:38.672 [Client #26] INFO  com.epam.callCenter.Client - Client #26 is in queue, and waiting 4376 milliseconds
+21:15:38.684 [Client #27] INFO  com.epam.callCenter.Client - Client #27 is in queue, and waiting 5059 milliseconds
+21:15:38.695 [Client #28] INFO  com.epam.callCenter.Client - Client #28 is in queue, and waiting 3756 milliseconds
+21:15:38.707 [Client #29] INFO  com.epam.callCenter.Client - Client #29 is in queue, and waiting 5341 milliseconds
+21:15:38.718 [Client #30] INFO  com.epam.callCenter.Client - Client #30 is in queue, and waiting 5256 milliseconds
+21:15:38.730 [Client #31] INFO  com.epam.callCenter.Client - Client #31 is in queue, and waiting 5725 milliseconds
+21:15:38.743 [Client #32] INFO  com.epam.callCenter.Client - Client #32 is in queue, and waiting 4367 milliseconds
+21:15:38.755 [Client #33] INFO  com.epam.callCenter.Client - Client #33 is in queue, and waiting 5309 milliseconds
+21:15:38.769 [Client #34] INFO  com.epam.callCenter.Client - Client #34 is in queue, and waiting 5911 milliseconds
+21:15:38.781 [Client #35] INFO  com.epam.callCenter.Client - Client #35 is in queue, and waiting 3462 milliseconds
+21:15:38.792 [Client #36] INFO  com.epam.callCenter.Client - Client #36 is in queue, and waiting 3020 milliseconds
+21:15:38.805 [Client #37] INFO  com.epam.callCenter.Client - Client #37 is in queue, and waiting 5981 milliseconds
+21:15:38.816 [Client #38] INFO  com.epam.callCenter.Client - Client #38 is in queue, and waiting 5065 milliseconds
+21:15:38.827 [Client #39] INFO  com.epam.callCenter.Client - Client #39 is in queue, and waiting 3283 milliseconds
+21:15:38.838 [Client #40] INFO  com.epam.callCenter.Client - Client #40 is in queue, and waiting 5656 milliseconds
+21:15:38.850 [Client #41] INFO  com.epam.callCenter.Client - Client #41 is in queue, and waiting 3886 milliseconds
+21:15:38.863 [Client #42] INFO  com.epam.callCenter.Client - Client #42 is in queue, and waiting 3537 milliseconds
+21:15:38.875 [Client #43] INFO  com.epam.callCenter.Client - Client #43 is in queue, and waiting 3596 milliseconds
+21:15:38.886 [Client #44] INFO  com.epam.callCenter.Client - Client #44 is in queue, and waiting 4478 milliseconds
+21:15:38.897 [Client #45] INFO  com.epam.callCenter.Client - Client #45 is in queue, and waiting 3161 milliseconds
+21:15:38.908 [Client #46] INFO  com.epam.callCenter.Client - Client #46 is in queue, and waiting 5467 milliseconds
+21:15:38.921 [Client #47] INFO  com.epam.callCenter.Client - Client #47 is in queue, and waiting 3078 milliseconds
+21:15:38.933 [Client #48] INFO  com.epam.callCenter.Client - Client #48 is in queue, and waiting 3925 milliseconds
+21:15:38.944 [Client #49] INFO  com.epam.callCenter.Client - Client #49 is in queue, and waiting 5646 milliseconds
+21:15:38.957 [Client #50] INFO  com.epam.callCenter.Client - Client #50 is in queue, and waiting 4999 milliseconds
+21:15:38.969 [Client #51] INFO  com.epam.callCenter.Client - Client #51 is in queue, and waiting 5540 milliseconds
+21:15:38.981 [Client #52] INFO  com.epam.callCenter.Client - Client #52 is in queue, and waiting 3160 milliseconds
+21:15:38.992 [Client #53] INFO  com.epam.callCenter.Client - Client #53 is in queue, and waiting 5071 milliseconds
+21:15:39.004 [Client #54] INFO  com.epam.callCenter.Client - Client #54 is in queue, and waiting 5422 milliseconds
+21:15:39.016 [Client #55] INFO  com.epam.callCenter.Client - Client #55 is in queue, and waiting 4782 milliseconds
+21:15:39.029 [Client #56] INFO  com.epam.callCenter.Client - Client #56 is in queue, and waiting 4209 milliseconds
+21:15:39.040 [Client #57] INFO  com.epam.callCenter.Client - Client #57 is in queue, and waiting 4817 milliseconds
+21:15:39.051 [Client #58] INFO  com.epam.callCenter.Client - Client #58 is in queue, and waiting 4102 milliseconds
+21:15:39.062 [Client #59] INFO  com.epam.callCenter.Client - Client #59 is in queue, and waiting 5289 milliseconds
+21:15:39.074 [Client #60] INFO  com.epam.callCenter.Client - Client #60 is in queue, and waiting 4483 milliseconds
+21:15:39.085 [Client #61] INFO  com.epam.callCenter.Client - Client #61 is in queue, and waiting 3387 milliseconds
+21:15:39.097 [Client #62] INFO  com.epam.callCenter.Client - Client #62 is in queue, and waiting 3202 milliseconds
+21:15:39.107 [Client #63] INFO  com.epam.callCenter.Client - Client #63 is in queue, and waiting 4000 milliseconds
+21:15:39.119 [Client #64] INFO  com.epam.callCenter.Client - Client #64 is in queue, and waiting 4799 milliseconds
+21:15:39.130 [Client #65] INFO  com.epam.callCenter.Client - Client #65 is in queue, and waiting 5481 milliseconds
+21:15:39.141 [Client #66] INFO  com.epam.callCenter.Client - Client #66 is in queue, and waiting 5120 milliseconds
+21:15:39.152 [Client #67] INFO  com.epam.callCenter.Client - Client #67 is in queue, and waiting 5969 milliseconds
+21:15:39.164 [Client #68] INFO  com.epam.callCenter.Client - Client #68 is in queue, and waiting 5085 milliseconds
+21:15:39.176 [Client #69] INFO  com.epam.callCenter.Client - Client #69 is in queue, and waiting 5516 milliseconds
+21:15:39.187 [Client #70] INFO  com.epam.callCenter.Client - Client #70 is in queue, and waiting 5897 milliseconds
+21:15:39.198 [Client #71] INFO  com.epam.callCenter.Client - Client #71 is in queue, and waiting 3557 milliseconds
+21:15:39.210 [Client #72] INFO  com.epam.callCenter.Client - Client #72 is in queue, and waiting 3767 milliseconds
+21:15:39.221 [Client #73] INFO  com.epam.callCenter.Client - Client #73 is in queue, and waiting 4107 milliseconds
+21:15:39.232 [Client #74] INFO  com.epam.callCenter.Client - Client #74 is in queue, and waiting 4168 milliseconds
+21:15:39.243 [Client #75] INFO  com.epam.callCenter.Client - Client #75 is in queue, and waiting 3578 milliseconds
+21:15:39.255 [Client #76] INFO  com.epam.callCenter.Client - Client #76 is in queue, and waiting 4958 milliseconds
+21:15:39.266 [Client #77] INFO  com.epam.callCenter.Client - Client #77 is in queue, and waiting 5920 milliseconds
+21:15:39.278 [Client #78] INFO  com.epam.callCenter.Client - Client #78 is in queue, and waiting 5925 milliseconds
+21:15:39.290 [Client #79] INFO  com.epam.callCenter.Client - Client #79 is in queue, and waiting 5775 milliseconds
+21:15:39.304 [Client #80] INFO  com.epam.callCenter.Client - Client #80 is in queue, and waiting 5045 milliseconds
+21:15:39.317 [Client #81] INFO  com.epam.callCenter.Client - Client #81 is in queue, and waiting 4578 milliseconds
+21:15:39.329 [Client #82] INFO  com.epam.callCenter.Client - Client #82 is in queue, and waiting 4628 milliseconds
+21:15:39.339 [Client #2] INFO  com.epam.callCenter.Client - Client #2 waits, when operator ask him
+21:15:39.339 [Operator #2] INFO  com.epam.callCenter.Client - Client #10 is talking
+21:15:39.342 [Client #83] INFO  com.epam.callCenter.Client - Client #83 is in queue, and waiting 4232 milliseconds
+21:15:39.355 [Client #84] INFO  com.epam.callCenter.Client - Client #84 is in queue, and waiting 5588 milliseconds
+21:15:39.366 [Client #85] INFO  com.epam.callCenter.Client - Client #85 is in queue, and waiting 5703 milliseconds
+21:15:39.377 [Client #86] INFO  com.epam.callCenter.Client - Client #86 is in queue, and waiting 3412 milliseconds
+21:15:39.389 [Client #87] INFO  com.epam.callCenter.Client - Client #87 is in queue, and waiting 5756 milliseconds
+21:15:39.401 [Client #88] INFO  com.epam.callCenter.Client - Client #88 is in queue, and waiting 4654 milliseconds
+21:15:39.412 [Client #89] INFO  com.epam.callCenter.Client - Client #89 is in queue, and waiting 3062 milliseconds
+21:15:39.418 [Client #6] INFO  com.epam.callCenter.Client - Client #6 waits, when operator ask him
+21:15:39.418 [Operator #6] INFO  com.epam.callCenter.Client - Client #11 is talking
+21:15:39.419 [Client #8] INFO  com.epam.callCenter.Client - Client #8 waits, when operator ask him
+21:15:39.419 [Operator #8] INFO  com.epam.callCenter.Client - Client #12 is talking
+21:15:39.423 [Client #90] INFO  com.epam.callCenter.Client - Client #90 is in queue, and waiting 5098 milliseconds
+21:15:39.435 [Client #91] INFO  com.epam.callCenter.Client - Client #91 is in queue, and waiting 5241 milliseconds
+21:15:39.447 [Client #92] INFO  com.epam.callCenter.Client - Client #92 is in queue, and waiting 5551 milliseconds
+21:15:39.459 [Client #93] INFO  com.epam.callCenter.Client - Client #93 is in queue, and waiting 3703 milliseconds
+21:15:39.470 [Client #94] INFO  com.epam.callCenter.Client - Client #94 is in queue, and waiting 4984 milliseconds
+21:15:39.486 [Client #95] INFO  com.epam.callCenter.Client - Client #95 is in queue, and waiting 4268 milliseconds
+21:15:39.493 [Client #96] INFO  com.epam.callCenter.Client - Client #96 is in queue, and waiting 3041 milliseconds
+21:15:39.504 [Client #97] INFO  com.epam.callCenter.Client - Client #97 is in queue, and waiting 3998 milliseconds
+21:15:39.516 [Client #98] INFO  com.epam.callCenter.Client - Client #98 is in queue, and waiting 4470 milliseconds
+21:15:39.527 [Client #99] INFO  com.epam.callCenter.Client - Client #99 is in queue, and waiting 4494 milliseconds
+21:15:39.564 [Client #3] INFO  com.epam.callCenter.Client - Client #3 waits, when operator ask him
+21:15:39.564 [Operator #3] INFO  com.epam.callCenter.Client - Client #13 is talking
+21:15:39.614 [Client #5] INFO  com.epam.callCenter.Client - Client #5 waits, when operator ask him
+21:15:39.614 [Operator #5] INFO  com.epam.callCenter.Client - Client #14 is talking
+21:15:39.635 [Client #0] INFO  com.epam.callCenter.Client - Client #0 waits, when operator ask him
+21:15:39.635 [Operator #0] INFO  com.epam.callCenter.Client - Client #15 is talking
+21:15:39.696 [Client #1] INFO  com.epam.callCenter.Client - Client #1 waits, when operator ask him
+21:15:39.696 [Operator #1] INFO  com.epam.callCenter.Client - Client #16 is talking
+21:15:39.702 [Operator #4] INFO  com.epam.callCenter.Client - Client #17 is talking
+21:15:39.702 [Client #4] INFO  com.epam.callCenter.Client - Client #4 waits, when operator ask him
+21:15:39.787 [Client #7] INFO  com.epam.callCenter.Client - Client #7 waits, when operator ask him
+21:15:39.787 [Operator #7] INFO  com.epam.callCenter.Client - Client #18 is talking
+21:15:39.810 [Client #9] INFO  com.epam.callCenter.Client - Client #9 waits, when operator ask him
+21:15:39.810 [Operator #9] INFO  com.epam.callCenter.Client - Client #19 is talking
+21:15:40.269 [Operator #2] INFO  com.epam.callCenter.Client - Client #20 is talking
+21:15:40.401 [Operator #6] INFO  com.epam.callCenter.Client - Client #21 is talking
+21:15:40.502 [Operator #3] INFO  com.epam.callCenter.Client - Client #22 is talking
+21:15:40.578 [Operator #8] INFO  com.epam.callCenter.Client - Client #23 is talking
+21:15:40.652 [Operator #1] INFO  com.epam.callCenter.Client - Client #24 is talking
+21:15:40.733 [Operator #9] INFO  com.epam.callCenter.Client - Client #25 is talking
+21:15:40.758 [Operator #7] INFO  com.epam.callCenter.Client - Client #26 is talking
+21:15:40.803 [Operator #0] INFO  com.epam.callCenter.Client - Client #27 is talking
+21:15:40.911 [Operator #4] INFO  com.epam.callCenter.Client - Client #28 is talking
+21:15:40.980 [Operator #5] INFO  com.epam.callCenter.Client - Client #29 is talking
+21:15:41.306 [Operator #2] INFO  com.epam.callCenter.Client - Client #30 is talking
+21:15:41.420 [Operator #6] INFO  com.epam.callCenter.Client - Client #31 is talking
+21:15:41.567 [Operator #3] INFO  com.epam.callCenter.Client - Client #32 is talking
+21:15:41.745 [Operator #0] INFO  com.epam.callCenter.Client - Client #33 is talking
+21:15:41.810 [Operator #1] INFO  com.epam.callCenter.Client - Client #34 is talking
+21:15:41.814 [Client #36] INFO  com.epam.callCenter.Client - Client #36 cant wait more
+21:15:41.900 [Operator #9] INFO  com.epam.callCenter.Client - Client #35 is talking
+21:15:41.914 [Operator #8] INFO  com.epam.callCenter.Client - Client #37 is talking
+21:15:41.944 [Operator #7] INFO  com.epam.callCenter.Client - Client #38 is talking
+21:15:42.000 [Client #47] INFO  com.epam.callCenter.Client - Client #47 cant wait more
+21:15:42.060 [Client #45] INFO  com.epam.callCenter.Client - Client #45 cant wait more
+21:15:42.111 [Client #39] INFO  com.epam.callCenter.Client - Client #39 cant wait more
+21:15:42.143 [Client #52] INFO  com.epam.callCenter.Client - Client #52 cant wait more
+21:15:42.209 [Operator #5] INFO  com.epam.callCenter.Client - Client #40 is talking
+21:15:42.301 [Client #62] INFO  com.epam.callCenter.Client - Client #62 cant wait more
+21:15:42.301 [Operator #4] INFO  com.epam.callCenter.Client - Client #41 is talking
+21:15:42.401 [Client #42] INFO  com.epam.callCenter.Client - Client #42 cant wait more
+21:15:42.472 [Client #43] INFO  com.epam.callCenter.Client - Client #43 cant wait more
+21:15:42.473 [Client #61] INFO  com.epam.callCenter.Client - Client #61 cant wait more
+21:15:42.475 [Client #89] INFO  com.epam.callCenter.Client - Client #89 cant wait more
+21:15:42.536 [Client #96] INFO  com.epam.callCenter.Client - Client #96 cant wait more
+21:15:42.551 [Operator #2] INFO  com.epam.callCenter.Client - Client #44 is talking
+21:15:42.751 [Operator #6] INFO  com.epam.callCenter.Client - Client #46 is talking
+21:15:42.756 [Client #71] INFO  com.epam.callCenter.Client - Client #71 cant wait more
+21:15:42.790 [Client #86] INFO  com.epam.callCenter.Client - Client #86 cant wait more
+21:15:42.823 [Client #75] INFO  com.epam.callCenter.Client - Client #75 cant wait more
+21:15:42.859 [Client #48] INFO  com.epam.callCenter.Client - Client #48 cant wait more
+21:15:42.916 [Operator #3] INFO  com.epam.callCenter.Client - Client #49 is talking
+21:15:42.938 [Operator #1] INFO  com.epam.callCenter.Client - Client #50 is talking
+21:15:42.980 [Client #72] INFO  com.epam.callCenter.Client - Client #72 cant wait more
+21:15:43.108 [Client #63] INFO  com.epam.callCenter.Client - Client #63 cant wait more
+21:15:43.128 [Operator #0] INFO  com.epam.callCenter.Client - Client #51 is talking
+21:15:43.154 [Client #58] INFO  com.epam.callCenter.Client - Client #58 cant wait more
+21:15:43.164 [Client #93] INFO  com.epam.callCenter.Client - Client #93 cant wait more
+21:15:43.187 [Operator #8] INFO  com.epam.callCenter.Client - Client #53 is talking
+21:15:43.225 [Operator #9] INFO  com.epam.callCenter.Client - Client #54 is talking
+21:15:43.240 [Client #56] INFO  com.epam.callCenter.Client - Client #56 cant wait more
+21:15:43.287 [Operator #7] INFO  com.epam.callCenter.Client - Client #55 is talking
+21:15:43.301 [Operator #5] INFO  com.epam.callCenter.Client - Client #57 is talking
+21:15:43.329 [Client #73] INFO  com.epam.callCenter.Client - Client #73 cant wait more
+21:15:43.401 [Client #74] INFO  com.epam.callCenter.Client - Client #74 cant wait more
+21:15:43.504 [Client #97] INFO  com.epam.callCenter.Client - Client #97 cant wait more
+21:15:43.536 [Operator #2] INFO  com.epam.callCenter.Client - Client #59 is talking
+21:15:43.558 [Client #60] INFO  com.epam.callCenter.Client - Client #60 cant wait more
+21:15:43.575 [Client #83] INFO  com.epam.callCenter.Client - Client #83 cant wait more
+21:15:43.607 [Operator #4] INFO  com.epam.callCenter.Client - Client #64 is talking
+21:15:43.755 [Client #95] INFO  com.epam.callCenter.Client - Client #95 cant wait more
+21:15:43.896 [Client #81] INFO  com.epam.callCenter.Client - Client #81 cant wait more
+21:15:43.932 [Operator #6] INFO  com.epam.callCenter.Client - Client #65 is talking
+21:15:43.958 [Client #82] INFO  com.epam.callCenter.Client - Client #82 cant wait more
+21:15:43.987 [Client #98] INFO  com.epam.callCenter.Client - Client #98 cant wait more
+21:15:44.000 [Operator #1] INFO  com.epam.callCenter.Client - Client #66 is talking
+21:15:44.022 [Client #99] INFO  com.epam.callCenter.Client - Client #99 cant wait more
+21:15:44.056 [Client #88] INFO  com.epam.callCenter.Client - Client #88 cant wait more
+21:15:44.185 [Operator #3] INFO  com.epam.callCenter.Client - Client #67 is talking
+21:15:44.191 [Operator #7] INFO  com.epam.callCenter.Client - Client #68 is talking
+21:15:44.214 [Client #76] INFO  com.epam.callCenter.Client - Client #76 cant wait more
+21:15:44.246 [Operator #0] INFO  com.epam.callCenter.Client - Client #69 is talking
+21:15:44.276 [Operator #8] INFO  com.epam.callCenter.Client - Client #70 is talking
+21:15:44.293 [Operator #5] INFO  com.epam.callCenter.Client - Client #77 is talking
+21:15:44.350 [Client #80] INFO  com.epam.callCenter.Client - Client #80 cant wait more
+21:15:44.455 [Client #94] INFO  com.epam.callCenter.Client - Client #94 cant wait more
+21:15:44.523 [Client #90] INFO  com.epam.callCenter.Client - Client #90 cant wait more
+21:15:44.578 [Operator #2] INFO  com.epam.callCenter.Client - Client #78 is talking
+21:15:44.612 [Operator #9] INFO  com.epam.callCenter.Client - Client #79 is talking
+21:15:44.662 [Operator #4] INFO  com.epam.callCenter.Client - Client #84 is talking
+21:15:44.678 [Client #91] INFO  com.epam.callCenter.Client - Client #91 cant wait more
+21:15:44.999 [Client #92] INFO  com.epam.callCenter.Client - Client #92 cant wait more
+21:15:45.070 [Client #85] INFO  com.epam.callCenter.Client - Client #85 cant wait more
+21:15:45.139 [Operator #3] INFO  com.epam.callCenter.Client - Client #87 is talking
+21:15:45.147 [Operator #1] INFO  com.epam.callCenter.Operator - Operator #1 is sleeping
+21:15:45.247 [Operator #6] INFO  com.epam.callCenter.Operator - Operator #6 is sleeping
+21:15:45.469 [Operator #0] INFO  com.epam.callCenter.Operator - Operator #0 is sleeping
+21:15:45.492 [Operator #7] INFO  com.epam.callCenter.Operator - Operator #7 is sleeping
+21:15:45.514 [Operator #9] INFO  com.epam.callCenter.Operator - Operator #9 is sleeping
+21:15:45.540 [Operator #5] INFO  com.epam.callCenter.Operator - Operator #5 is sleeping
+21:15:45.595 [Operator #8] INFO  com.epam.callCenter.Operator - Operator #8 is sleeping
+21:15:45.776 [Operator #2] INFO  com.epam.callCenter.Operator - Operator #2 is sleeping
+21:15:45.796 [Operator #4] INFO  com.epam.callCenter.Operator - Operator #4 is sleeping
+21:15:46.363 [Operator #3] INFO  com.epam.callCenter.Operator - Operator #3 is sleeping
+21:22:57.560 [Operator #9] INFO  com.epam.callCenter.Operator - Operator #9 is sleeping
+21:22:57.560 [Operator #2] INFO  com.epam.callCenter.Operator - Operator #2 is sleeping
+21:22:57.560 [Operator #1] INFO  com.epam.callCenter.Operator - Operator #1 is sleeping
+21:22:57.560 [Operator #3] INFO  com.epam.callCenter.Operator - Operator #3 is sleeping
+21:22:57.560 [Operator #6] INFO  com.epam.callCenter.Operator - Operator #6 is sleeping
+21:22:57.560 [Operator #0] INFO  com.epam.callCenter.Operator - Operator #0 is sleeping
+21:22:57.560 [Operator #5] INFO  com.epam.callCenter.Operator - Operator #5 is sleeping
+21:22:57.560 [Operator #7] INFO  com.epam.callCenter.Operator - Operator #7 is sleeping
+21:22:57.560 [Operator #4] INFO  com.epam.callCenter.Operator - Operator #4 is sleeping
+21:22:57.560 [Operator #8] INFO  com.epam.callCenter.Operator - Operator #8 is sleeping
+21:22:57.567 [Client #0] INFO  com.epam.callCenter.Operator - Operator #0 is awoke
+21:22:57.567 [Operator #0] INFO  com.epam.callCenter.Client - Client #0 is talking
+21:22:57.576 [Client #1] INFO  com.epam.callCenter.Operator - Operator #1 is awoke
+21:22:57.576 [Operator #1] INFO  com.epam.callCenter.Client - Client #1 is talking
+21:22:57.587 [Client #2] INFO  com.epam.callCenter.Operator - Operator #2 is awoke
+21:22:57.587 [Operator #2] INFO  com.epam.callCenter.Client - Client #2 is talking
+21:22:57.599 [Client #3] INFO  com.epam.callCenter.Operator - Operator #3 is awoke
+21:22:57.599 [Operator #3] INFO  com.epam.callCenter.Client - Client #3 is talking
+21:22:57.610 [Client #4] INFO  com.epam.callCenter.Operator - Operator #4 is awoke
+21:22:57.610 [Operator #4] INFO  com.epam.callCenter.Client - Client #4 is talking
+21:22:57.621 [Client #5] INFO  com.epam.callCenter.Operator - Operator #5 is awoke
+21:22:57.621 [Operator #5] INFO  com.epam.callCenter.Client - Client #5 is talking
+21:22:57.632 [Client #6] INFO  com.epam.callCenter.Operator - Operator #6 is awoke
+21:22:57.632 [Operator #6] INFO  com.epam.callCenter.Client - Client #6 is talking
+21:22:57.643 [Client #7] INFO  com.epam.callCenter.Operator - Operator #7 is awoke
+21:22:57.643 [Operator #7] INFO  com.epam.callCenter.Client - Client #7 is talking
+21:22:57.655 [Client #8] INFO  com.epam.callCenter.Operator - Operator #8 is awoke
+21:22:57.655 [Operator #8] INFO  com.epam.callCenter.Client - Client #8 is talking
+21:22:57.667 [Client #9] INFO  com.epam.callCenter.Operator - Operator #9 is awoke
+21:22:57.667 [Operator #9] INFO  com.epam.callCenter.Client - Client #9 is talking
+21:22:57.678 [Client #10] INFO  com.epam.callCenter.Client - Client #10 is in queue, and waiting 5541 milliseconds
+21:22:57.690 [Client #11] INFO  com.epam.callCenter.Client - Client #11 is in queue, and waiting 5769 milliseconds
+21:22:57.701 [Client #12] INFO  com.epam.callCenter.Client - Client #12 is in queue, and waiting 4215 milliseconds
+21:22:57.712 [Client #13] INFO  com.epam.callCenter.Client - Client #13 is in queue, and waiting 5226 milliseconds
+21:22:57.724 [Client #14] INFO  com.epam.callCenter.Client - Client #14 is in queue, and waiting 3504 milliseconds
+21:22:57.737 [Client #15] INFO  com.epam.callCenter.Client - Client #15 is in queue, and waiting 4826 milliseconds
+21:22:57.748 [Client #16] INFO  com.epam.callCenter.Client - Client #16 is in queue, and waiting 5641 milliseconds
+21:22:57.760 [Client #17] INFO  com.epam.callCenter.Client - Client #17 is in queue, and waiting 3474 milliseconds
+21:22:57.773 [Client #18] INFO  com.epam.callCenter.Client - Client #18 is in queue, and waiting 5327 milliseconds
+21:22:57.785 [Client #19] INFO  com.epam.callCenter.Client - Client #19 is in queue, and waiting 3538 milliseconds
+21:22:57.796 [Client #20] INFO  com.epam.callCenter.Client - Client #20 is in queue, and waiting 3495 milliseconds
+21:22:57.807 [Client #21] INFO  com.epam.callCenter.Client - Client #21 is in queue, and waiting 5327 milliseconds
+21:22:57.819 [Client #22] INFO  com.epam.callCenter.Client - Client #22 is in queue, and waiting 4755 milliseconds
+21:22:57.831 [Client #23] INFO  com.epam.callCenter.Client - Client #23 is in queue, and waiting 3701 milliseconds
+21:22:57.844 [Client #24] INFO  com.epam.callCenter.Client - Client #24 is in queue, and waiting 4420 milliseconds
+21:22:57.855 [Client #25] INFO  com.epam.callCenter.Client - Client #25 is in queue, and waiting 5541 milliseconds
+21:22:57.867 [Client #26] INFO  com.epam.callCenter.Client - Client #26 is in queue, and waiting 5511 milliseconds
+21:22:57.878 [Client #27] INFO  com.epam.callCenter.Client - Client #27 is in queue, and waiting 5037 milliseconds
+21:22:57.890 [Client #28] INFO  com.epam.callCenter.Client - Client #28 is in queue, and waiting 5071 milliseconds
+21:22:57.901 [Client #29] INFO  com.epam.callCenter.Client - Client #29 is in queue, and waiting 5903 milliseconds
+21:22:57.914 [Client #30] INFO  com.epam.callCenter.Client - Client #30 is in queue, and waiting 4574 milliseconds
+21:22:57.925 [Client #31] INFO  com.epam.callCenter.Client - Client #31 is in queue, and waiting 3448 milliseconds
+21:22:57.937 [Client #32] INFO  com.epam.callCenter.Client - Client #32 is in queue, and waiting 3457 milliseconds
+21:22:57.948 [Client #33] INFO  com.epam.callCenter.Client - Client #33 is in queue, and waiting 5086 milliseconds
+21:22:57.960 [Client #34] INFO  com.epam.callCenter.Client - Client #34 is in queue, and waiting 3935 milliseconds
+21:22:57.973 [Client #35] INFO  com.epam.callCenter.Client - Client #35 is in queue, and waiting 4930 milliseconds
+21:22:57.985 [Client #36] INFO  com.epam.callCenter.Client - Client #36 is in queue, and waiting 5644 milliseconds
+21:22:57.997 [Client #37] INFO  com.epam.callCenter.Client - Client #37 is in queue, and waiting 4952 milliseconds
+21:22:58.010 [Client #38] INFO  com.epam.callCenter.Client - Client #38 is in queue, and waiting 3528 milliseconds
+21:22:58.021 [Client #39] INFO  com.epam.callCenter.Client - Client #39 is in queue, and waiting 5483 milliseconds
+21:22:58.032 [Client #40] INFO  com.epam.callCenter.Client - Client #40 is in queue, and waiting 4021 milliseconds
+21:22:58.044 [Client #41] INFO  com.epam.callCenter.Client - Client #41 is in queue, and waiting 3300 milliseconds
+21:22:58.055 [Client #42] INFO  com.epam.callCenter.Client - Client #42 is in queue, and waiting 3971 milliseconds
+21:22:58.066 [Client #43] INFO  com.epam.callCenter.Client - Client #43 is in queue, and waiting 3749 milliseconds
+21:22:58.078 [Client #44] INFO  com.epam.callCenter.Client - Client #44 is in queue, and waiting 3691 milliseconds
+21:22:58.090 [Client #45] INFO  com.epam.callCenter.Client - Client #45 is in queue, and waiting 4921 milliseconds
+21:22:58.101 [Client #46] INFO  com.epam.callCenter.Client - Client #46 is in queue, and waiting 4712 milliseconds
+21:22:58.114 [Client #47] INFO  com.epam.callCenter.Client - Client #47 is in queue, and waiting 4958 milliseconds
+21:22:58.127 [Client #48] INFO  com.epam.callCenter.Client - Client #48 is in queue, and waiting 3880 milliseconds
+21:22:58.139 [Client #49] INFO  com.epam.callCenter.Client - Client #49 is in queue, and waiting 5951 milliseconds
+21:22:58.150 [Client #50] INFO  com.epam.callCenter.Client - Client #50 is in queue, and waiting 5199 milliseconds
+21:22:58.162 [Client #51] INFO  com.epam.callCenter.Client - Client #51 is in queue, and waiting 3431 milliseconds
+21:22:58.173 [Client #52] INFO  com.epam.callCenter.Client - Client #52 is in queue, and waiting 3234 milliseconds
+21:22:58.186 [Client #53] INFO  com.epam.callCenter.Client - Client #53 is in queue, and waiting 5812 milliseconds
+21:22:58.198 [Client #54] INFO  com.epam.callCenter.Client - Client #54 is in queue, and waiting 5512 milliseconds
+21:22:58.210 [Client #55] INFO  com.epam.callCenter.Client - Client #55 is in queue, and waiting 4783 milliseconds
+21:22:58.221 [Client #56] INFO  com.epam.callCenter.Client - Client #56 is in queue, and waiting 3862 milliseconds
+21:22:58.232 [Client #57] INFO  com.epam.callCenter.Client - Client #57 is in queue, and waiting 5614 milliseconds
+21:22:58.243 [Client #58] INFO  com.epam.callCenter.Client - Client #58 is in queue, and waiting 5772 milliseconds
+21:22:58.255 [Client #59] INFO  com.epam.callCenter.Client - Client #59 is in queue, and waiting 3337 milliseconds
+21:22:58.268 [Client #60] INFO  com.epam.callCenter.Client - Client #60 is in queue, and waiting 5110 milliseconds
+21:22:58.280 [Client #61] INFO  com.epam.callCenter.Client - Client #61 is in queue, and waiting 5041 milliseconds
+21:22:58.292 [Client #62] INFO  com.epam.callCenter.Client - Client #62 is in queue, and waiting 3714 milliseconds
+21:22:58.302 [Client #63] INFO  com.epam.callCenter.Client - Client #63 is in queue, and waiting 3757 milliseconds
+21:22:58.314 [Client #64] INFO  com.epam.callCenter.Client - Client #64 is in queue, and waiting 3638 milliseconds
+21:22:58.326 [Client #65] INFO  com.epam.callCenter.Client - Client #65 is in queue, and waiting 5056 milliseconds
+21:22:58.340 [Client #66] INFO  com.epam.callCenter.Client - Client #66 is in queue, and waiting 3463 milliseconds
+21:22:58.351 [Client #67] INFO  com.epam.callCenter.Client - Client #67 is in queue, and waiting 5206 milliseconds
+21:22:58.362 [Client #68] INFO  com.epam.callCenter.Client - Client #68 is in queue, and waiting 4846 milliseconds
+21:22:58.373 [Client #69] INFO  com.epam.callCenter.Client - Client #69 is in queue, and waiting 5625 milliseconds
+21:22:58.384 [Client #70] INFO  com.epam.callCenter.Client - Client #70 is in queue, and waiting 5473 milliseconds
+21:22:58.395 [Client #71] INFO  com.epam.callCenter.Client - Client #71 is in queue, and waiting 5708 milliseconds
+21:22:58.406 [Client #72] INFO  com.epam.callCenter.Client - Client #72 is in queue, and waiting 5064 milliseconds
+21:22:58.417 [Client #73] INFO  com.epam.callCenter.Client - Client #73 is in queue, and waiting 4848 milliseconds
+21:22:58.428 [Client #74] INFO  com.epam.callCenter.Client - Client #74 is in queue, and waiting 5751 milliseconds
+21:22:58.440 [Client #75] INFO  com.epam.callCenter.Client - Client #75 is in queue, and waiting 3100 milliseconds
+21:22:58.453 [Client #76] INFO  com.epam.callCenter.Client - Client #76 is in queue, and waiting 3878 milliseconds
+21:22:58.464 [Client #77] INFO  com.epam.callCenter.Client - Client #77 is in queue, and waiting 4870 milliseconds
+21:22:58.476 [Client #78] INFO  com.epam.callCenter.Client - Client #78 is in queue, and waiting 3977 milliseconds
+21:22:58.487 [Client #79] INFO  com.epam.callCenter.Client - Client #79 is in queue, and waiting 4326 milliseconds
+21:22:58.500 [Client #80] INFO  com.epam.callCenter.Client - Client #80 is in queue, and waiting 3739 milliseconds
+21:22:58.512 [Client #81] INFO  com.epam.callCenter.Client - Client #81 is in queue, and waiting 4007 milliseconds
+21:22:58.524 [Client #82] INFO  com.epam.callCenter.Client - Client #82 is in queue, and waiting 4209 milliseconds
+21:22:58.529 [Client #0] INFO  com.epam.callCenter.Client - Client #0 waits, when operator ask him
+21:22:58.529 [Operator #0] INFO  com.epam.callCenter.Client - Client #10 is talking
+21:22:58.535 [Client #5] INFO  com.epam.callCenter.Client - Client #5 waits, when operator ask him
+21:22:58.535 [Operator #5] INFO  com.epam.callCenter.Client - Client #11 is talking
+21:22:58.535 [Client #83] INFO  com.epam.callCenter.Client - Client #83 is in queue, and waiting 3598 milliseconds
+21:22:58.546 [Client #84] INFO  com.epam.callCenter.Client - Client #84 is in queue, and waiting 5904 milliseconds
+21:22:58.557 [Client #85] INFO  com.epam.callCenter.Client - Client #85 is in queue, and waiting 3848 milliseconds
+21:22:58.568 [Client #86] INFO  com.epam.callCenter.Client - Client #86 is in queue, and waiting 4209 milliseconds
+21:22:58.579 [Client #87] INFO  com.epam.callCenter.Client - Client #87 is in queue, and waiting 5088 milliseconds
+21:22:58.592 [Client #88] INFO  com.epam.callCenter.Client - Client #88 is in queue, and waiting 3898 milliseconds
+21:22:58.605 [Client #89] INFO  com.epam.callCenter.Client - Client #89 is in queue, and waiting 4095 milliseconds
+21:22:58.615 [Client #7] INFO  com.epam.callCenter.Client - Client #7 waits, when operator ask him
+21:22:58.615 [Operator #7] INFO  com.epam.callCenter.Client - Client #12 is talking
+21:22:58.617 [Client #1] INFO  com.epam.callCenter.Client - Client #1 waits, when operator ask him
+21:22:58.617 [Operator #1] INFO  com.epam.callCenter.Client - Client #13 is talking
+21:22:58.617 [Client #90] INFO  com.epam.callCenter.Client - Client #90 is in queue, and waiting 4023 milliseconds
+21:22:58.628 [Client #91] INFO  com.epam.callCenter.Client - Client #91 is in queue, and waiting 5329 milliseconds
+21:22:58.636 [Client #2] INFO  com.epam.callCenter.Client - Client #2 waits, when operator ask him
+21:22:58.636 [Operator #2] INFO  com.epam.callCenter.Client - Client #14 is talking
+21:22:58.640 [Client #92] INFO  com.epam.callCenter.Client - Client #92 is in queue, and waiting 3623 milliseconds
+21:22:58.653 [Client #93] INFO  com.epam.callCenter.Client - Client #93 is in queue, and waiting 4652 milliseconds
+21:22:58.668 [Client #94] INFO  com.epam.callCenter.Client - Client #94 is in queue, and waiting 5736 milliseconds
+21:22:58.676 [Client #95] INFO  com.epam.callCenter.Client - Client #95 is in queue, and waiting 3989 milliseconds
+21:22:58.680 [Client #6] INFO  com.epam.callCenter.Client - Client #6 waits, when operator ask him
+21:22:58.680 [Operator #6] INFO  com.epam.callCenter.Client - Client #15 is talking
+21:22:58.687 [Client #96] INFO  com.epam.callCenter.Client - Client #96 is in queue, and waiting 4417 milliseconds
+21:22:58.696 [Operator #3] INFO  com.epam.callCenter.Client - Client #16 is talking
+21:22:58.696 [Client #3] INFO  com.epam.callCenter.Client - Client #3 waits, when operator ask him
+21:22:58.698 [Client #97] INFO  com.epam.callCenter.Client - Client #97 is in queue, and waiting 5484 milliseconds
+21:22:58.709 [Client #98] INFO  com.epam.callCenter.Client - Client #98 is in queue, and waiting 3976 milliseconds
+21:22:58.710 [Client #9] INFO  com.epam.callCenter.Client - Client #9 waits, when operator ask him
+21:22:58.710 [Operator #9] INFO  com.epam.callCenter.Client - Client #17 is talking
+21:22:58.720 [Client #99] INFO  com.epam.callCenter.Client - Client #99 is in queue, and waiting 3188 milliseconds
+21:22:58.757 [Client #8] INFO  com.epam.callCenter.Client - Client #8 waits, when operator ask him
+21:22:58.757 [Operator #8] INFO  com.epam.callCenter.Client - Client #18 is talking
+21:22:58.984 [Client #4] INFO  com.epam.callCenter.Client - Client #4 waits, when operator ask him
+21:22:58.984 [Operator #4] INFO  com.epam.callCenter.Client - Client #19 is talking
+21:22:59.794 [Operator #5] INFO  com.epam.callCenter.Client - Client #20 is talking
+21:22:59.866 [Operator #2] INFO  com.epam.callCenter.Client - Client #21 is talking
+21:22:59.870 [Operator #6] INFO  com.epam.callCenter.Client - Client #22 is talking
+21:22:59.879 [Operator #0] INFO  com.epam.callCenter.Client - Client #23 is talking
+21:22:59.983 [Operator #1] INFO  com.epam.callCenter.Client - Client #24 is talking
+21:23:00.009 [Operator #7] INFO  com.epam.callCenter.Client - Client #25 is talking
+21:23:00.037 [Operator #3] INFO  com.epam.callCenter.Client - Client #26 is talking
+21:23:00.099 [Operator #9] INFO  com.epam.callCenter.Client - Client #27 is talking
+21:23:00.148 [Operator #8] INFO  com.epam.callCenter.Client - Client #28 is talking
+21:23:00.352 [Operator #4] INFO  com.epam.callCenter.Client - Client #29 is talking

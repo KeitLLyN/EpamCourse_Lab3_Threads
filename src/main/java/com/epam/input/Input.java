@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class Input {
     private static final Logger LOG = LogManager.getLogger(Input.class);
 
-    public static int getNumber(){
+    public static int getInt(){
         while (true) {
             try {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
