@@ -1,5 +1,6 @@
 package com.epam.callCenter;
 
+import com.epam.statistics.Statistics;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -21,6 +22,7 @@ public class Client extends Thread {
     private BlockingQueue<Client> clientsQueue;
     private Lock lock = new ReentrantLock();
     private Condition condition = lock.newCondition();
+    private static Statistics statistics = new Statistics();
 
     public Client(int timeToAsk, int number, List<Operator> operators, BlockingQueue<Client> clientsQueue) {
 
@@ -44,6 +46,7 @@ public class Client extends Thread {
                         condition.await();
                         LOG.info("Client #" + number + " waits, when operator ask him");
                     } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
                         e.printStackTrace();
                     }
                     lock.unlock();
@@ -65,9 +68,11 @@ public class Client extends Thread {
                         LOG.info("Client #" + number + " cant wait more");
                         clientsQueue.remove(this);
                         System.out.println("Client #" + number + " cant wait more");
+                        statistics.addAngry();
                     }
                     else {
                         System.out.println("Client #" + getNumber() + " is happy");
+                        statistics.addHappy();
                     }
                 } catch (InterruptedException ex) {
                     Thread.currentThread().interrupt();
@@ -79,6 +84,7 @@ public class Client extends Thread {
         }
         else{
             System.out.println("Client #" + getNumber() + " is happy");
+            statistics.addHappy();
         }
     }
 
@@ -100,5 +106,9 @@ public class Client extends Thread {
 
     public int getNumber(){
         return number;
+    }
+
+    public static Statistics getStatistics(){
+        return statistics;
     }
 }

@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -30,7 +31,6 @@ public class Operator extends Thread {
             lock.lock();
             try {
                 while (currentClient == null){
-
                     waitClient();
                 }
                 isFree = false;
@@ -44,6 +44,7 @@ public class Operator extends Thread {
             }finally {
                 lock.unlock();
             }
+            if (clients.isEmpty()) break;
         }
     }
 
@@ -54,6 +55,7 @@ public class Operator extends Thread {
             LOG.info("Operator #" + operatorNumber + " is sleeping");
             condition.await();
         } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
             LOG.warn(e.getMessage());
         }finally {
             lock.unlock();
@@ -68,8 +70,6 @@ public class Operator extends Thread {
         }finally {
             lock.unlock();
         }
-
-
     }
 
     public void setClient(Client client) {
